@@ -1,1 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My University Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My University Website</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="pages/courses.html">Courses</a>
+        <a href="pages/schedule.html">Schedule</a>
+        <a href="pages/other1.html">OTHER1</a>
+        <a href="pages/other2.html">OTHER2</a>
+        <a href="pages/contact.html">Contact</a>
+    </nav>
+
+    <section class="hero">
+        <h2>Welcome to My Website</h2>
+        <p>This website shows information about my university studies and interests.</p>
+        <button id="changeColor">Change Background</button>
+    </section>
+
+
+    <main>
+        <section>
+            <h2>About Me</h2>
+
+            <article>
+                <p>Name: Tamya Chilcañan</p>
+                <p>Degree Program: Computer Science</p>
+                <p>Semester: Sixth Semester 2026</p>
+                <p>
+                   I am a Computer Science student currently in my sixth semester.
+                    During my studies, I have learned about different areas of technology
+                    and programming. I enjoy learning through practical activities and
+                    using new tools that help me understand how computer systems work.            
+                </p>
+            </article>
+
+            <img src="images/profile.jpg" alt="Profile image" width="200">
+
+            <h2>Academic Interests</h2>
+
+            <ul>
+                <li>Database</li>
+                <li>Web Development</li>
+                <li>Operating Systems</li>
+            </ul>
+        </section>
+
+
+        <section>
+    <h2>My Goals</h2>
+
+    <p>
+        My goal is to continue improving my knowledge in Computer Science
+        and develop practical skills that I can use in future academic
+        and professional projects.
+    </p>
+
+    <ul>
+        <li>Improve my programming skills.</li>
+        <li>Learn more about web development.</li>
+        <li>Gain more experience using technology tools.</li>
+    </ul>
+</section>
+
+    <section>
+    <h2>Image Gallery</h2>
+
+    <div class="gallery">
+        <img src="images/image1.jpg" alt="Gallery image 1">
+        <img src="images/image2.jpg" alt="Gallery image 2">
+        <img src="images/image3.jpg" alt="Gallery image 3">
+        <img src="images/image4.jpg" alt="Gallery image 4">
+    </div>
+
+    </section>
+    <div id="imageModal" class="modal">
+    <span class="close">&times;</span>
+    <img class="modal-content" id="modalImage">
+    </div>
+
+    <section>
+    <h2>Contact Me</h2>
+
+    <form id="contactForm">
+
+        <p>
+            Name:
+            <input type="text" id="name">
+        </p>
+
+        <p>
+            Email:
+            <input type="email" id="email">
+        </p>
+
+        <p>Message:</p>
+
+        <textarea id="message" rows="5"></textarea>
+
+        <p>
+            <button type="submit">Send</button>
+        </p>
+
+    </form>
+    </section>
+
+    </main>
+
+
+    <footer>
+        <p>My University Website - 2026</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
 
